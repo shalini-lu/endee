@@ -109,7 +109,7 @@ streamlit run app.py
 
 The application will be available at:
 
-http://localhost:8501
+👉 **Local URL:** [http://localhost:8501](http://localhost:8501)
 
 📂 Project Structure
 ai-code-error-explainer/
