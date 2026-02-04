@@ -1,4 +1,5 @@
 
+
 # Ignore build directory
 build/
 # Ignore build like directory
@@ -20,3 +21,11 @@ data/*
 # Frontend
 frontend/
 frontend/*
+
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
