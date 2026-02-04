@@ -28,7 +28,7 @@ databases and semantic similarity can be applied to real-world developer problem
 
 ---
 
-##  System Architecture
+## 🧠 System Architecture
 
 The project follows a simple but effective pipeline:
 
@@ -76,11 +76,10 @@ project focuses on:
 
 ---
 
-##  Example Usage
+## 🧪 Example Usage
 
 **User Input (Natural English):**
 my program crashes when accessing array index
-
 
 **System Output (Top Matches):**
 - Java – ArrayIndexOutOfBoundsException  
@@ -103,17 +102,17 @@ python -m venv venv
 source venv/bin/activate
 pip install sentence-transformers scikit-learn streamlit
 
+
 Running the Application
 streamlit run app.py
 
 
 The application will be available at:
 
-👉 **Local URL:** [http://localhost:8501](http://localhost:8501)
+👉 Local URL: http://localhost:8501
 
 📂 Project Structure
 ai-code-error-explainer/
-│
 ├── app.py                # Streamlit UI
 ├── embeddings.py         # Embedding generation logic
 ├── explain_error.py      # Semantic search logic
